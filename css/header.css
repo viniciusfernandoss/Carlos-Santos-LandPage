@@ -1,0 +1,34 @@
+.redes-sociais .bi{
+    font-size: 24px;
+    color: #DD0708;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 283px;
+    height: 106px;
+}
+.logo-footer{
+    width: 283px;
+    height: 106px;
+}
+#text-header p{
+    font-family: var(--fonte-inter);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 51px;
+    color: white;
+    margin: 0;
+}
+#text-header p strong{
+    color: #E22929;
+}
+#foto-carlos{
+    bottom: 0;
+}
+#container-inicial{
+    height: 100vh;
+}

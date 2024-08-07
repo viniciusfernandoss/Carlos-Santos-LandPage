@@ -1,0 +1,6 @@
+#container-email{
+    width: 100%;
+    height: 35.9vh;
+    background: linear-gradient(90deg, #CC0C08 0%, #660604 100%);
+    border-radius: 72px 0 72px 0;
+}

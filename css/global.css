@@ -1,0 +1,25 @@
+@import url('header.css');
+@import url('sobre.css');
+@import url('email.css');
+@import url('destaques.css');
+@import url('palestrantes.css');
+@import url('cursos.css');
+@import url('footer.css');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-inter: "Inter", sans-serif;
+    --fonte-montserrat: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: black;
+}
