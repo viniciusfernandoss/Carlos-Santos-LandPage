@@ -1,0 +1,13 @@
+.background-sobre{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0) 100%), url('../img/background-sobre.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 2697px;
+}
+#titulo-sobre{
+    padding: 100px;
+}
+.numeros-row{
+    padding-bottom: 20%;
+}
+

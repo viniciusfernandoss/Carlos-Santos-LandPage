@@ -1,20 +1,53 @@
-.redes-sociais .bi{
-    font-size: 24px;
+.background-header{
+    position: relative;
+}
+.background-header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../img/background-header.jpeg'), 
+                linear-gradient(180deg, rgba(0, 0, 0, 0) 39.5%, #000000 100%),
+                linear-gradient(90deg, #000000 17.5%, #CD0100 49.5%, #000000 85%);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.50;
+    background-blend-mode: luminosity;
+    background-blend-mode: multiply;
+    z-index: 1;
+}
+.navbar{
+    color: #DD0708;
+    position: relative;
+    z-index: 2;
+}
+.navbar a{
     color: #DD0708;
 }
-.redes-sociais{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.navbar a:hover{
+    color: white;
 }
-.logo{
-    width: 283px;
-    height: 106px;
+.navbar-brand{
+    margin: 0;
+    padding: 0;
 }
-.logo-footer{
-    width: 283px;
-    height: 106px;
+.bi{
+    font-size: 24px;
 }
+.navbar-toggler{
+    color: #DD0708;
+}
+.navbar-toggler-icon{
+    background-color: #DD0708;
+}
+
+.container-header{
+    position: relative;
+    z-index: 2;
+}
+
 #text-header p{
     font-family: var(--fonte-inter);
     font-size: 48px;
